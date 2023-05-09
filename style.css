@@ -1,0 +1,74 @@
+.body{
+    background-color: #dad9da;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.temario{
+    width: 729px;
+    height: auto;
+}
+
+.title{
+    border-bottom:2px solid #252525 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tema{
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.temario:hover{
+    border: 2px solid #252525;
+}
+
+.tema{
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.tema:hover{
+    border: 2px solid #252525; 
+}
+
+.temaIcon{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.nombreTema{
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.fechaDePublicacion{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.IconHover:hover{
+    width: 15px;
+    height:  0px;
+    display: 0;
+
+}
+
+.tema:hover .IconHover{
+    opacity: 100;
+}
+
+.Icon{
+    width: 30px;
+    height: 30px;
+}
